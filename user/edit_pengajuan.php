@@ -12,7 +12,7 @@ $error = '';
 $sql = "SELECT p.*, mb.nama_barang, mb.satuan 
         FROM tabel_pengajuan p 
         JOIN tabel_master_barang mb ON p.id_barang = mb.id_barang
-        JOIN tabel_pengadaan pd ON p.id_pengajuan = pd.id_pengadaan
+        JOIN tabel_pengadaan pd ON p.id_pengajuan = pd.id_pengajuan 
         WHERE p.id_pengajuan = $id AND p.id_divisi = $id_divisi AND pd.status = 'Diajukan'
         LIMIT 1";
 $result = mysqli_query($conn, $sql);
