@@ -155,6 +155,7 @@ Dikembangkan khusus untuk memenuhi kebutuhan digitalisasi manajemen logistik kep
 
 **Pengembang:** Azka Nazalla (202431133)  
 **Institusi:** Institut Teknologi PLN (ITPLN) - Teknik Informatika / Asisten Laboratorium
+
 **Link:** logistikg.free.nf
 
 _Selesai dikembangkan pada: Juni 2026_
